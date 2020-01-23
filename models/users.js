@@ -26,8 +26,7 @@ module.exports = {
     },
 
     /**
-     * @param { String } name - User Name
-     * @param { String } address - User Address
+     * @param { Object } user - User Object
      * @return { Object }
      */
     insertUser: user => {
