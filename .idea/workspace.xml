@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6b79112-07cb-4cda-95cc-d47430a6c885" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/connection.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/connection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579881880541</updated>
-      <workItem from="1579881888338" duration="1426000" />
+      <workItem from="1579881888338" duration="1992000" />
     </task>
     <servers />
   </component>

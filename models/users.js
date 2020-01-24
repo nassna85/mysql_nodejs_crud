@@ -49,5 +49,18 @@ module.exports = {
             if(error) throw error;
             console.log({updateUser: result});
         });
+    },
+
+    /**
+     * @param {String} tableName - Table Name
+     * @param {number} id - User Id
+     * @return {Object}
+     */
+    findUserById: (tableName, id) => {
+        const sql = `SELECT * FROM ${tableName} WHERE id = ${id}`;
+        connection.query(sql, (error, result) => {
+            if(error) throw error;
+            console.log({findUserById:result});
+        });
     }
 };
