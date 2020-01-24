@@ -35,5 +35,19 @@ module.exports = {
             if(error) throw error;
             console.log({insertUser : result});
         });
+    },
+
+    /**
+     * @param {number} id - User Id
+     * @param {Object} user - User Object
+     * @param {String} tableName - Table Name
+     * @return {Object}
+     */
+    updateUser: (id, user, tableName) => {
+        const sql = `UPDATE ${tableName} SET ? WHERE id = ${id}`;
+        connection.query(sql, user, (error, result) => {
+            if(error) throw error;
+            console.log({updateUser: result});
+        });
     }
-}
+};
