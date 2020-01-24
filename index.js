@@ -1,6 +1,6 @@
 const http = require('http');
 
-const { deleteTable, createTable, insertUser, updateUser, findUserById } = require('./models/users');
+const { deleteTable, createTable, insertUser, updateUser, findUserById, findAllUsers } = require('./models/users');
 
 const server = http.createServer((req, res) => {
     res.writeHead(200);
@@ -24,6 +24,8 @@ updateUser(1, {
 /*
 findUserById("user_test", 3);
 */
+//findAllUsers("user_test");
+
 
 server.listen(3000);
 

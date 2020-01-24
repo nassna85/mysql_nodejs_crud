@@ -62,5 +62,17 @@ module.exports = {
             if(error) throw error;
             console.log({findUserById:result});
         });
+    },
+
+    /**
+     * @param {String} tableName - Table Name
+     * @return {Object}
+     */
+    findAllUsers: tableName => {
+        const sql = `SELECT * FROM ${tableName}`;
+        connection.query(sql, (error, results) => {
+            if(error) throw error;
+            console.log({findAllUsers: results});
+        });
     }
 };
